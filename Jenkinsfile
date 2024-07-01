@@ -1,7 +1,6 @@
 pipeline {
-    agent none
+agent none
     stages {
-
         stage('SCM') {
            steps {
                 echo "pull the source code from git hub repo"
